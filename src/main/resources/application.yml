@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/demo_dso
+    url: jdbc:postgresql://${DB_HOST:localhost}:5432/demo_dso
     username: demo_dso
     password: demo_dso
   liquibase:
