@@ -1,6 +1,5 @@
 FROM bitnami/java:17
 VOLUME /app
-WORKDIR /app
 COPY target/*.jar app-java-forge-demo.jar
 COPY src/main/resources/application.yml application.yml
 COPY start.sh start.sh
